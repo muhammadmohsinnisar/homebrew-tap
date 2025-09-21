@@ -4,8 +4,8 @@ A personal collection of open-source command-line tools for developers.
 
 ## 🚀 Available Tools
 
-### 🍪 Cookie Finder
-A command-line tool for analyzing cookie log files and finding the most active cookies for specific dates.
+### 🍪 cookie-finder
+Command-line tool for analyzing cookie log files and finding the most active cookies for specific dates.
 
 **Installation:**
 ```bash
@@ -16,13 +16,6 @@ brew install muhammadmohsinnisar/tap/cookie-finder
 ```bash
 cookieFinder -f cookie_log.csv -d 2018-12-09
 ```
-
-**Features:**
-- Process CSV cookie log files
-- Find most active cookies by date
-- Handle ties (multiple cookies with same activity)
-- UTC timezone support
-- Built with Kotlin
 
 **Repository:** [muhammadmohsinnisar/cookieFinder](https://github.com/muhammadmohsinnisar/cookieFinder)
 
@@ -37,21 +30,22 @@ brew tap muhammadmohsinnisar/tap
 
 ### Install Tools
 ```bash
-brew install cookie-finder
+# Install any available tool
+brew install <tool-name>
 ```
 
 ### Update Tools
 ```bash
 brew update
-brew upgrade cookie-finder
+brew upgrade <tool-name>
 ```
 
 ---
 
 ## 📋 Requirements
 
-- **macOS**: Tested on macOS
-- **Java**: Java 17+ (automatically installed via Homebrew)
+- **macOS**: All tools are tested on macOS
+- **Dependencies**: Automatically installed via Homebrew when needed
 
 ---
 
